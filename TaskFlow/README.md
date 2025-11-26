@@ -104,9 +104,6 @@ Abra no navegador: `https://localhost:5001/Tarefas` ou `http://localhost:5000/Ta
 	- Criar branch limpa para submissão
 	- Gerar Dockerfile / CI com imagem `mcr.microsoft.com/dotnet/aspnet:8.0`
 
-Obrigado — diga se quer que eu:
-- (A) crie commits/branches locais organizados para envio, ou
-- (B) reverta para .NET 7 em uma branch separada, ou
-- (C) gere um artefato (zip) pronto para upload.
+
 
 
