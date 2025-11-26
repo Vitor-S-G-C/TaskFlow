@@ -1,0 +1,34 @@
+@model TaskFlow.Domain.Entities.Tarefa
+@using TaskFlow.Domain.Entities
+@{
+    ViewData["Title"] = "Criar Tarefa";
+}
+
+<h1>Criar Tarefa</h1>
+
+<form asp-controller="Tarefas" asp-action="Create" method="post">
+    <div class="mb-3">
+        <label asp-for="Titulo" class="form-label"></label>
+        <input asp-for="Titulo" class="form-control" />
+        <span asp-validation-for="Titulo" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="Descricao" class="form-label"></label>
+        <textarea asp-for="Descricao" class="form-control"></textarea>
+    </div>
+    <div class="mb-3">
+        <label asp-for="Status" class="form-label"></label>
+        <select asp-for="Status" class="form-select">
+            @foreach (StatusTarefa s in Enum.GetValues(typeof(StatusTarefa)))
+            {
+                <option value="@((int)s)">@s.ToString()</option>
+            }
+        </select>
+    </div>
+    <button class="btn btn-primary">Salvar</button>
+    <a class="btn btn-secondary" asp-controller="Tarefas" asp-action="Index">Voltar</a>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

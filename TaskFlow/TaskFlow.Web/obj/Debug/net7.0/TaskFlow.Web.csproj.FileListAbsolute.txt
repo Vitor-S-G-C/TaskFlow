@@ -1,0 +1,8 @@
+C:\Users\vitor\Downloads\TaskFlow\TaskFlow\TaskFlow.Web\obj\Debug\net7.0\TaskFlow.Web.csproj.AssemblyReference.cache
+C:\Users\vitor\Downloads\TaskFlow\TaskFlow\TaskFlow.Web\obj\Debug\net7.0\TaskFlow.Web.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vitor\Downloads\TaskFlow\TaskFlow\TaskFlow.Web\obj\Debug\net7.0\TaskFlow.Web.AssemblyInfoInputs.cache
+C:\Users\vitor\Downloads\TaskFlow\TaskFlow\TaskFlow.Web\obj\Debug\net7.0\TaskFlow.Web.AssemblyInfo.cs
+C:\Users\vitor\Downloads\TaskFlow\TaskFlow\TaskFlow.Web\obj\Debug\net7.0\TaskFlow.Web.csproj.CoreCompileInputs.cache
+C:\Users\vitor\Downloads\TaskFlow\TaskFlow\TaskFlow.Web\obj\Debug\net7.0\TaskFlow.Web.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\vitor\Downloads\TaskFlow\TaskFlow\TaskFlow.Web\obj\Debug\net7.0\TaskFlow.Web.RazorAssemblyInfo.cache
+C:\Users\vitor\Downloads\TaskFlow\TaskFlow\TaskFlow.Web\obj\Debug\net7.0\TaskFlow.Web.RazorAssemblyInfo.cs

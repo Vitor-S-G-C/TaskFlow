@@ -1,0 +1,17 @@
+c:\Users\vitor\Downloads\TaskFlow\TaskFlow\TaskFlow.Services\bin\Debug\net8.0\TaskFlow.Services.deps.json
+c:\Users\vitor\Downloads\TaskFlow\TaskFlow\TaskFlow.Services\bin\Debug\net8.0\TaskFlow.Services.dll
+c:\Users\vitor\Downloads\TaskFlow\TaskFlow\TaskFlow.Services\bin\Debug\net8.0\TaskFlow.Services.pdb
+c:\Users\vitor\Downloads\TaskFlow\TaskFlow\TaskFlow.Services\bin\Debug\net8.0\TaskFlow.Data.dll
+c:\Users\vitor\Downloads\TaskFlow\TaskFlow\TaskFlow.Services\bin\Debug\net8.0\TaskFlow.Domain.dll
+c:\Users\vitor\Downloads\TaskFlow\TaskFlow\TaskFlow.Services\bin\Debug\net8.0\TaskFlow.Domain.pdb
+c:\Users\vitor\Downloads\TaskFlow\TaskFlow\TaskFlow.Services\bin\Debug\net8.0\TaskFlow.Data.pdb
+c:\Users\vitor\Downloads\TaskFlow\TaskFlow\TaskFlow.Services\obj\Debug\net8.0\TaskFlow.Services.csproj.AssemblyReference.cache
+c:\Users\vitor\Downloads\TaskFlow\TaskFlow\TaskFlow.Services\obj\Debug\net8.0\TaskFlow.Services.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\vitor\Downloads\TaskFlow\TaskFlow\TaskFlow.Services\obj\Debug\net8.0\TaskFlow.Services.AssemblyInfoInputs.cache
+c:\Users\vitor\Downloads\TaskFlow\TaskFlow\TaskFlow.Services\obj\Debug\net8.0\TaskFlow.Services.AssemblyInfo.cs
+c:\Users\vitor\Downloads\TaskFlow\TaskFlow\TaskFlow.Services\obj\Debug\net8.0\TaskFlow.Services.csproj.CoreCompileInputs.cache
+c:\Users\vitor\Downloads\TaskFlow\TaskFlow\TaskFlow.Services\obj\Debug\net8.0\TaskFlow.E2D10F9B.Up2Date
+c:\Users\vitor\Downloads\TaskFlow\TaskFlow\TaskFlow.Services\obj\Debug\net8.0\TaskFlow.Services.dll
+c:\Users\vitor\Downloads\TaskFlow\TaskFlow\TaskFlow.Services\obj\Debug\net8.0\refint\TaskFlow.Services.dll
+c:\Users\vitor\Downloads\TaskFlow\TaskFlow\TaskFlow.Services\obj\Debug\net8.0\TaskFlow.Services.pdb
+c:\Users\vitor\Downloads\TaskFlow\TaskFlow\TaskFlow.Services\obj\Debug\net8.0\ref\TaskFlow.Services.dll

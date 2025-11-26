@@ -1,0 +1,75 @@
+@model IEnumerable<TaskFlow.Domain.Entities.Tarefa>
+@using TaskFlow.Domain.Entities
+@{
+    ViewData["Title"] = "Tarefas";
+}
+
+<h1>Tarefas</h1>
+
+<form method="get" class="row g-2 mb-3">
+    <div class="col-auto">
+        <input type="text" name="keyword" value="@ViewBag.Keyword" class="form-control" placeholder="Palavra-chave no título" />
+    </div>
+    <div class="col-auto">
+        <select name="status" class="form-select">
+            <option value="">Todos</option>
+            @foreach (StatusTarefa s in Enum.GetValues(typeof(StatusTarefa)))
+            {
+                <option value="@((int)s)" selected="@(ViewBag.Status != null && ((int)ViewBag.Status) == ((int)s) ? "selected" : null)">@s.ToString()</option>
+            }
+        </select>
+    </div>
+    <div class="col-auto">
+        <button class="btn btn-primary">Filtrar</button>
+        <a class="btn btn-secondary" href="/">Limpar</a>
+    </div>
+    <div class="col-auto ms-auto">
+        <a class="btn btn-success" href="/Tarefas/Create">Nova Tarefa</a>
+    </div>
+</form>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Título</th>
+            <th>Status</th>
+            <th>Data Criação</th>
+            <th>Data Conclusão</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@if (Model == null || !Model.Any())
+{
+    <tr>
+        <td colspan="5" class="text-center text-muted">Nenhuma tarefa encontrada</td>
+    </tr>
+}
+else
+{
+    @foreach(var t in Model)
+    {
+        <tr>
+            <td>@t.Titulo</td>
+            <td>@t.Status</td>
+            <td>@t.DataCriacao.ToLocalTime().ToString("g")</td>
+            <td>@(t.DataConclusao.HasValue ? t.DataConclusao.Value.ToLocalTime().ToString("g") : "-")</td>
+            <td>
+                <a class="btn btn-sm btn-primary" asp-action="Edit" asp-route-id="@t.Id">Editar</a>
+                <form asp-action="Delete" method="post" style="display:inline">
+                    <input type="hidden" name="id" value="@t.Id" />
+                    <button class="btn btn-sm btn-danger" onclick="return confirm('Confirma exclusão?')">Excluir</button>
+                </form>
+                @if (t.Status != StatusTarefa.Concluida)
+                {
+                    <form asp-action="MarcarConcluida" method="post" style="display:inline">
+                        <input type="hidden" name="id" value="@t.Id" />
+                        <button class="btn btn-sm btn-success">Marcar concluída</button>
+                    </form>
+                }
+            </td>
+        </tr>
+    }
+}
+    </tbody>
+</table>

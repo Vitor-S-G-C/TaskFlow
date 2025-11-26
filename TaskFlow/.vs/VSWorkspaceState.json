@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\TaskFlow.Data",
+    "\\TaskFlow.Data\\obj",
+    "\\TaskFlow.Data\\obj\\Debug",
+    "\\TaskFlow.Data\\obj\\Release",
+    "\\TaskFlow.Domain",
+    "\\TaskFlow.Domain\\Entities",
+    "\\TaskFlow.Domain\\Interfaces",
+    "\\TaskFlow.Domain\\obj"
+  ],
+  "SelectedNode": "\\TaskFlow.Data\\obj\\Release\\net7.0",
+  "PreviewInSolutionExplorer": false
+}
