@@ -5,7 +5,7 @@ O projeto segue arquitetura em camadas (Domain, Data, Services, Web) com classes
 
 ---
 
-## 🧰 **Tecnologias Utilizadas**
+##  **Tecnologias Utilizadas**
 
 * **C#**
 * **ASP.NET Core MVC** (atualizado para **.NET 8**)
@@ -15,7 +15,7 @@ O projeto segue arquitetura em camadas (Domain, Data, Services, Web) com classes
 
 ---
 
-## 🚀 **Funcionalidades**
+##  **Funcionalidades**
 
 * CRUD completo de tarefas:
 
@@ -36,7 +36,7 @@ O projeto segue arquitetura em camadas (Domain, Data, Services, Web) com classes
 
 ---
 
-## 🏛️ **Arquitetura do Projeto**
+##  **Arquitetura do Projeto**
 
 O projeto está dividido em 4 camadas:
 
@@ -67,7 +67,7 @@ O projeto está dividido em 4 camadas:
 
 ---
 
-## 🛠️ **Versões e Branches**
+##  **Versões e Branches**
 
 A solução está atualmente em:
 
@@ -78,7 +78,7 @@ Caso o avaliador exija **.NET 7**, existe a possibilidade de criar uma branch es
 
 ---
 
-## ▶️ **Como Rodar o Projeto (Windows / PowerShell)**
+##  **Como Rodar o Projeto (Windows / PowerShell)**
 
 ### 1. Verifique o SDK instalado
 
